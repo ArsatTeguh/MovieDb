@@ -1,0 +1,57 @@
+@media (max-width: 500px){
+    .kakek-footer{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .bapak-footer {
+        width: 90%;
+        padding: 0rem !important;
+    } 
+    .contact {
+        color: #757575;
+        font-size: 0.5rem !important;
+        margin-bottom: 2rem;
+    }
+    .bapak-footer p {
+        font-size: 1.1rem;
+    }
+    .content-link p {
+        font-size: 0.8rem !important;
+    }
+
+}
+
+@media (min-width: 768px){
+    .kakek-footer{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .bapak-footer {
+        width: 70%;
+        padding: 0rem !important;
+    } 
+    .contact {
+        color: #757575;
+        font-size: 0.5rem !important;
+        margin-bottom: 2rem;
+    }
+    .bapak-footer p {
+        font-size: 1.1rem;
+    }
+    .content-link p {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (min-width: 1440px){
+    .bapak-footer {
+        width: 55%;
+        padding: 0rem !important;
+    } 
+    .bapak-footer p {
+        font-size: 1.3rem;
+    }
+    .content-link p {
+        font-size: 1rem !important;
+    }
+}

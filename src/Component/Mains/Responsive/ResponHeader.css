@@ -1,0 +1,12 @@
+@media (max-width: 500px) {
+    .logo {
+        width: 300px;
+      }
+      .btn-logo {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 2.3rem;
+        width: 5rem;
+        right: 10%;
+      }
+}

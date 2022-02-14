@@ -1,0 +1,26 @@
+GET http://localhost:5000/user/data
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIsIm5hbWEiOiJ0ZXN0IiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTY0Mzg0NTI5NCwiZXhwIjoxNjQzODQ1MzE0fQ.0-pE_YqsrWGn-b316Gc4v38pNI48A-rUetaVwfIMdwU
+
+
+###
+POST  http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "nama": "test2",
+    "email": "test2@gmail.com",
+    "password": "1234",
+    "confpassword": "1234"
+}
+
+###
+POST  http://localhost:5000/user/login
+Content-Type: application/json
+
+{
+    "email": "test2@gmail.com",
+    "password": "1234",
+}
+
+###
+GET http://localhost:5000/user/token

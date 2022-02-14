@@ -1,0 +1,59 @@
+@media (max-width: 500px){
+    .bapak-main4{
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .img-main4{
+        padding-bottom: 2rem !important;
+        width: 300px !important;
+        margin: 0 auto;
+    }
+    .text-main4 h4{
+       text-align: center;
+        font-size: 2.2rem;
+    }
+    .text-main4 p{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px){
+    .img-main4{
+        padding-bottom: 2rem !important;
+        width: 350px !important;
+        margin: 0 auto;
+    }
+    .text-main4 h4{
+       text-align: start;
+        font-size: 2.3rem;
+    }
+    .text-main4 p{
+        text-align: start;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .img-main4{
+        padding-bottom: 2rem !important;
+        width: 550px !important;
+        margin: 0 auto;
+    }
+    .text-main4 h4{
+       text-align: start;
+        font-size: 3.5rem !important;
+    }
+    .text-main4 p{
+        text-align: start;
+        font-size: 1.5rem;
+    }
+    .videos-main3{
+        width: 55%;
+        margin: 0 auto;
+    }
+    .video-main3{
+        margin-bottom: 10vh;
+        width: 100%;
+    }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Saira+Condensed:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containers{
+    position: relative;
+    height: 85vh;
+    width: 100%;
+}
+.container-bg {
+    position: absolute;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/5c235903-02cc-4228-85a2-5fcef1e47627/97f8312c-6ed9-4be1-b3c9-c028b6b1f340/ID-id-20211227-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    height: 85vh;
+    width: 100%;
+    
+}
+.containers::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-image: radial-gradient(rgba(22, 22, 22, 0.596), rgba(0, 0, 0, 0.836), rgb(0, 0, 0));
+    opacity: .8;
+    
+}
+
+.bg {
+    
+    display: flex;
+    color: #ffff;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.bg h1{
+    font-family: 'Saira Condensed', sans-serif;
+    z-index: 9;
+    font-size: 4.5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-weight: 700;
+}
+.bg h4 {
+    z-index: 1;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.bg p {
+    z-index: 1;
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.search{
+    font-family: 'Saira Condensed', sans-serif;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    bottom: 18%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.input-email{
+    z-index: 2;
+    border-color: red;
+    border: none;
+    width: 30rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+.btn-email {
+    z-index: 1;
+    border: 1px red;
+    width: 10rem;
+    font-size: 2rem;
+    background-color: red;
+    color: white;
+}
+.btn-email:hover {
+    z-index: 33;
+    cursor: pointer;
+    border-color: rgb(99, 4, 4);
+}

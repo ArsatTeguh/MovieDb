@@ -1,0 +1,154 @@
+@media (max-width: 500px){
+    .bapak-main5{
+        padding: 0rem !important;
+    }
+    .content-main5{
+        padding: 0rem !important;
+    }
+    .text-main5 h4{
+        font-size: 2.2rem;
+        font-weight: 500;
+        margin: 2rem;
+    }
+    .jawaban {
+        padding-left: 0.5rem !important;
+        transition: all 10s;
+    }
+    .jawaban p {
+        font-size: 0.9rem;
+    }
+    .btn-mains5{
+        width: 100%;
+        margin: 0 auto;
+        line-height: 3rem;
+    }
+    .btn-main5{
+        padding-left: 1rem;
+        margin-bottom: 0.2rem;
+        font-size: 1rem;
+        font-weight: 600;
+        color: whitesmoke;
+        background-color: #303030;
+        border: 0 solid black;
+    }
+
+    .inputs-main5 p {
+        font-size: 1rem;
+    }
+
+    .input-main5{
+        width: 60%;
+        line-height: 2.09rem;
+        
+        margin: 0 auto;
+        border: 0 solid black;
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+    }
+
+    .btn-input-main5{
+        line-height: 2rem;
+        width: 5rem;
+        background-color:red;
+        color: whitesmoke;
+        font-weight: 500;
+        font-size: 1rem;
+        border: whitesmoke;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (min-width: 768px){
+    .text-main5 h4{
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin: 1rem;
+    }
+     .btn-main5{
+        padding-left: 1rem;
+        margin-bottom: 0.2rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .btn-mains5{
+        width: 100%;
+        margin: 0 auto;
+        line-height: 3rem; 
+    }
+    .jawaban p {
+        font-size: 1rem;
+    }
+    
+    .inputs-main5 p {
+        font-size: 1rem;
+    }
+
+    .input-main5{
+        width: 60%;
+        line-height: 3rem;
+        margin: 0 auto;
+        border: 0 solid black;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+    }
+
+    .btn-input-main5{
+        line-height: 3rem;
+        width: 5rem;
+        background-color:red;
+        color: whitesmoke;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .jawaban {
+        padding-left: 0.7rem !important;
+    }
+}
+
+@media (min-width: 1440px){
+    .text-main5 h4{
+        font-size: 3rem;
+        font-weight: 500;
+        margin: 2rem;
+    }
+     .btn-main5{
+        font-size: 1.5rem;
+    }
+
+    .btn-mains5{
+        width: 80%;
+        margin: 0 auto;
+        line-height: 4rem; 
+    }
+    .jawaban p {
+        font-size: 1.3rem;
+    }
+    
+    .inputs-main5 p {
+        font-size: 1.5rem;
+    }
+
+    .input-main5{
+        margin-top: 1rem !important;
+        width: 50%;
+        line-height: 3rem;
+        margin: 0 auto;
+        border: 0 solid black;
+        font-size: 1.4rem;
+        padding-left: 0.5rem;
+    }
+
+    .btn-input-main5{
+        line-height: 3rem;
+        width: 8rem;
+        background-color:red;
+        color: whitesmoke;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .jawaban {
+        padding-left: 0.7rem !important;
+    }
+}

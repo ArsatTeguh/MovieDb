@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bapak-main4{
+    background-color: black;
+    border-top: 8px solid rgb(25, 25, 25);
+}
+.img-main4{
+    margin-top: 2rem;
+    width: 600px;
+}
+
+.gambar-main4{
+    width: 100%;
+    height: 100%;
+}
+
+.text-main4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.text-main4 h4{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+.text-main4 p{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
