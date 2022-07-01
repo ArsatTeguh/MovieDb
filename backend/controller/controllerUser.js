@@ -43,12 +43,13 @@ export const Login = async (req, res) => {
     const userid = user.id;
     const nama = user.nama;
     const email = user.email;
-
+    
     // membuat token dan memasukan informasi user ke delam token
     const accesToken = jwt.sign({userid,nama,email}, process.env.ACCES_TOKEN_SECRET,{
         expiresIn: '20S'
     });
 
+    
     // membuat token alternatif jika masa token sudah expire
     const refreshToken = jwt.sign({userid,nama,email}, process.env.REFRESH_TOKEN,{
         expiresIn: '1d'

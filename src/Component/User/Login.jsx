@@ -7,8 +7,8 @@ import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [dataUser, setDataUser] = React.useState({
-    email: "",
     password: "",
+    username: ""
   });
   const [msg, setMsg] = React.useState("");
   const navigate = useNavigate();
@@ -23,8 +23,8 @@ const Login = () => {
     e.preventDefault();
     try {
       await axios.post("http://localhost:5000/user/login", {
-        email: dataUser.email,
         password: dataUser.password,
+        username: dataUser.username,
       });
       navigate("/datauser");
     } catch (e) {
@@ -53,16 +53,6 @@ const Login = () => {
         <form onSubmit={auth} className="form">
           <div style={{ display: "flex", flexDirection: "column" }}>
             <TextField
-              className="input"
-              name="email"
-              id="outlined-basic"
-              label="Email"
-              color="success"
-              style={{ marginBottom: "1rem", marginTop: "1rem" }}
-              onChange={(e) => handler(e)}
-              value={dataUser.email}
-            />
-            <TextField
               name="password"
               id="outlined-basic"
               label="Password"
@@ -70,6 +60,16 @@ const Login = () => {
               style={{ marginBottom: "3rem", marginTop: "1rem" }}
               onChange={(e) => handler(e)}
               value={dataUser.password}
+            />
+            <TextField
+              className="input"
+              name="username"
+              id="outlined-basic"
+              label="Username"
+              color="success"
+              style={{ marginBottom: "1rem", marginTop: "1rem" }}
+              onChange={(e) => handler(e)}
+              value={dataUser.username}
             />
             <button className="btn-tambah bg-success">Masuk</button>
             <a
